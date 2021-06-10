@@ -1,0 +1,68 @@
+.alfresco-search-box {
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.alfresco-search-box h3 {
+    margin-top: 15px;
+}
+
+.alfresco-search-box form .inputtext {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #9E9E9E;
+    font-size: 16px;
+    padding: 5px 5px 3px 5px;
+    transition: 0.1s;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.alfresco-search-box form .selectyear {
+    border-radius: 4px;
+    border: 1px solid #9E9E9E;
+    padding: 6px 5px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+    background-color: #fff;
+}
+
+.alfresco-search-box form .inputbutton {
+    text-transform: uppercase;
+    border: 1px solid #9E9E9E;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #ffffff45;
+    padding: 5px 17px;
+    border-radius: 4px;
+    background-color: #9E9E9E;
+    transition: 0.1s;
+    margin-bottom: 6px;
+}
+
+.alfresco-search-box form .closebutton {
+    border: none;
+    color: #cc0000;
+    margin-left: 2px;
+    background-color: #f9f9f9;
+    display: none;
+}
+
+.alfresco-search-box form .inputbutton:hover {
+    background-color: #adadad;
+    transition: 0.1s;
+}
+
+.alfresco-search-box form .closebutton:hover {
+    text-decoration: underline;
+}
+
+.alfresco-search-box form .inputtext:hover {
+    border: 1px solid #616161;
+    transition: 0.1s;
+}
